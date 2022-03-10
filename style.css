@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'josefin sans', sans-serif;
 }
 
 .background-image {
@@ -9,4 +12,61 @@
     top: 0;
     left: 0;
     right: 0;
+    height: 350px;
+    z-index: -1;
 }
+
+.background-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    z-index: 100;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.input-div input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+}
+
+.input-div input::placeholder {
+   font-size: 18px;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+    background-color: #fff;
+  }	
+
+
+
